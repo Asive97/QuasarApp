@@ -26,7 +26,10 @@
       >
         <q-scroll-area style="height: calc(100% - 108px); margin-top: 108px; border-right: 1px solid #ddd">
           <q-list padding>
-            <q-item clickable v-ripple>
+            <q-item 
+            to="/"
+            clickable 
+            v-ripple>
               <q-item-section avatar>
                 <q-icon name="list" />
               </q-item-section>
@@ -36,7 +39,10 @@
               </q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple>
+            <q-item 
+            to="/help"
+            clickable
+             v-ripple>
               <q-item-section avatar>
                 <q-icon name="help" />
               </q-item-section>
